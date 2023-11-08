@@ -1,1 +1,44 @@
-/* Add screen styles below */
+body {
+    background-image: url('cherryblossom2.webp');
+    background-color: #f0f0f0;
+    color: #000;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}
+
+
+.form {
+    background-color: #a9ddeb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-title {
+    color: #ffb7c5;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px  #ff385e;
+}
+
+.form-group label {
+    color: #ffb7c5;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px #ff385e;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #ffb7c5;
+    border-color: #ffb7c5;
+    color: #ff385e;
+    
+}
+
+.btn-primary:hover {
+    background-color: #ff385e;
+    border-color: #ff385e;
+}
